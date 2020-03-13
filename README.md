@@ -1,6 +1,12 @@
 # metaDigitise 
 [![Build Status](https://travis-ci.org/daniel1noble/metaDigitise.svg?branch=master)](https://travis-ci.org/daniel1noble/metaDigitise.svg?branch=master) 
+[![CRAN version](http://www.r-pkg.org/badges/version/metaDigitise)](https://cran.r-project.org/package=metaDigitise)
+[![Downloads / month](https://cranlogs.r-pkg.org/badges/metaDigitise)](https://cran.r-project.org/package=metaDigitise)
+[![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/metaDigitise)](https://cran.r-project.org/package=metaDigitise)
 [![codecov](https://codecov.io/gh/daniel1noble/metaDigitise/branch/master/graph/badge.svg)](https://codecov.io/gh/daniel1noble/metaDigitise)
+
+
+<img src="https://user-images.githubusercontent.com/3505482/64334607-3ba76a80-d01c-11e9-87ff-de4a5c17cd0a.png" width="100" height="100" />
 
 # Table of contents
 1. [Introduction](#Introduction)
@@ -22,13 +28,20 @@
 To cite metaDigitise in publications one can use the following reference:
 
 ```
-Pick, J.L., Nakagawa, S., Noble D.W.A. (2018) 
+Pick, J.L., Nakagawa, S., Noble D.W.A. (2019) 
 Reproducible, flexible and high-throughput data extraction from primary 
-literature: The metaDigitise R package. Biorxiv, https://doi.org/10.1101/247775
+literature: The metaDigitise R package. Methods in Ecology and Evolution, 10:426–431 https://doi.org/10.1111/2041-210X.13118
 ```
 # Installation <a name="Installation"></a>
 
-To install `metaDigitise` use the following code in R:
+`metaDigitise` (v1.0.0) is now on CRAN and can be downloaded in R using:
+
+```
+install.packages("metaDigitise")
+library(metaDigitise)
+```
+
+To install the development version of `metaDigitise` use the following code in R:
 
 ```
 install.packages("devtools")
